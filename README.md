@@ -1,43 +1,56 @@
-### Как запустить проект:
+# kittygram
 
-Клонировать репозиторий и перейти в него в командной строке:
+Kittygram is a simple application that allows you to browse and download cat photos.
 
+## Installation
+
+To run this script on your computer, follow these steps:
+
+1. Clone the repository using the command
 ```
-git clone https://github.com/yandex-praktikum/kittygram.git
-```
+git clone git@github.com:seregatipich/kittygram.git
+``` 
 
+2. Navigate to the application directory using the command
 ```
 cd kittygram
+``` 
+
+3. Create virtual environment
+```
+python -m venv venv
 ```
 
-Cоздать и активировать виртуальное окружение:
-
+4. Activate virtual environment
 ```
-python3 -m venv env
+source venv/Scripts/activate
 ```
-
+or
 ```
-source env/bin/activate
-```
-
-Установить зависимости из файла requirements.txt:
-
-```
-python3 -m pip install --upgrade pip
+source venv/bin/activate
 ```
 
+5. Install the dependencies from requirements.txt
 ```
 pip install -r requirements.txt
 ```
 
-Выполнить миграции:
-
+Make migrations:
 ```
-python3 manage.py migrate
+python manage.py migrate
 ```
 
-Запустить проект:
+## Usage
 
+1. Run the site
 ```
 python3 manage.py runserver
 ```
+2. After launching, you will be able to access it using any browser on you computer via this link: 
+```
+127.0.0.1:8000  
+```
+
+## License
+
+This project is licensed under the MIT License. You are free to use it in your projects.
