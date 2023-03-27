@@ -1,6 +1,6 @@
 # kittygram
 
-Kittygram is a simple application that allows you to browse and download cat photos.
+Kittygram is an application that allows you to browse and download cat photos.
 
 ## Installation
 
